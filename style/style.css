@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 60px;
+    background-color: #D53939;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.315);
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    float: left;
+
+}
+.nav ul li a img{
+    width: 18px;
+    margin-right:5px ;
+}
+.nav ul li a{
+    float: left;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Spartan', sans-serif ;
+}
+.nav .contact-button{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    width: 230px;
+    height: 40px;
+    float: left;
+    background-color: none;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.nav-logo{
+    margin-left: -90px;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+}
+.container{
+    padding: 14px 0 14px 0;
+    vertical-align: middle;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.container-slideshow{
+    z-index: -1;
+    position: relative;
+    margin: auto;
+    margin-bottom: -4px ;
+}
+.slider{
+    display: none;
+}
+.slider > img{
+    width:100%; 
+    max-height: 70vh;
+}
+.slider-text{
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.452);
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    text-align: center;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}

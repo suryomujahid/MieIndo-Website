@@ -3,7 +3,7 @@ MieIndo (Indomie) website culinary for school project.
 
 Our Team:
 - Me
-- M Nabil Hakim
+- M Nabil Hakim (Designer)
 
 HTML 5 + CSS 3 + JS
 Browser: Brave

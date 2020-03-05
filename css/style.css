@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #D53939;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.315);
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a img{
+    width: 18px;
+    margin-right:5px ;
+}
+.nav ul li a{
+    float: left;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Spartan', sans-serif ;
+}
+.nav .contact-button{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    width: 230px;
+    height: 40px;
+    float: left;
+    background-color: none;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.nav-logo{
+    margin-left: -90px;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+}
+.container{
+    padding: 50px;
+    vertical-align: middle;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.container-background{
+    padding: 14px 0 28px 0;
+
+}
+.container-slideshow{
+    z-index: -1;
+    position: relative;
+    margin: auto;
+    margin-bottom: -4px ;
+}
+.slider{
+    display: none;
+}
+.slider > img{
+    width:100%; 
+    max-height: 70vh;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+.top-card{
+    align-items: center;
+    padding: 24px;
+    margin-top: -75px;
+    width: 240px;
+    height: 46vh;
+    background-color: brown;
+    font-family: 'Spartan', sans-serif;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+
+}
+.top-card > img{
+    width: 65%;
+}
+.top-card > h3{
+    font-weight: bolder;
+    color: white;
+    margin: 8px 0 8px 0;
+    padding: 8px 4px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.top-card > p{
+    color: white;
+}
+.title{
+    font-family: 'Patrick Hand', sans-serif;
+    font-weight: lighter;
+    font-size: 44px;
+    margin: 6px 0 6px 0;
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.button{
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 12px 24px 12px 24px;
+    background-color: #36ef43;
+}
+.image-grid .column{
+    max-width: 100%;
+    padding: 8px;
+}
+.image-grid > img{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    height: 150px;
+    width: 20%;
+}
+
+.column > img{
+    margin: 10px;
+    width: 200px;
+}
+
+
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
